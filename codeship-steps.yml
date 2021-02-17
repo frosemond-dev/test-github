@@ -1,0 +1,5 @@
+- service: app
+  type: serial
+  steps:
+    - command: printenv
+    - command: cat README.md
